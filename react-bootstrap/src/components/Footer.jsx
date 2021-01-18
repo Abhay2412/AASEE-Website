@@ -8,7 +8,7 @@ const Footer = () => {
                 <div class="row">
                     {/* Logo Coulmn */}
                <div class = "col">
-                 <img class="img-fluid" src="/assets/AASEE Logo.png" width="50%"></img>
+                 <img class="img-fluid" src="/assets/AASEE Logo.png" width="100%"></img>
                </div>
                {/* Coulmn1 */}
                <div class = "col">

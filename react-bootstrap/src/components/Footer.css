@@ -1,16 +1,19 @@
 .main-footer{
-    color: white;
-    background-color: #FF8B8B;
+    color: black;
+    background-color: rgba(242, 242, 242, 1);
     padding-top: 3em;
     position: relative;
     bottom: 0;
     width: 100%;
 }
 a{
-    color: white;
+    color: black;
 }
 
 .fa{
     padding-top: 0.5em;
     position: relative;
+}
+.img-fluid{
+    background-color:rgba(242, 242, 242, 1);
 }

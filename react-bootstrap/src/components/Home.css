@@ -1,55 +1,30 @@
-.jumbotron{
-    background-image: url("https://www.mastersindatascience.org/wp-content/uploads/STEM-Guide-for-kids-hero-2-1024x467.jpg");
-    background-repeat: no-repeat, repeat;
-    background-position: center; /* Center the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    padding-top: 50px;
-    font-weight: bold;
-    margin-bottom: 100px;
-    padding: 100px;
-    border-radius: 50px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  }
-  
   body{
-      background-color: white;
+    background-color: aqua;
   }
- 
-  .title {
+    .title {
     font-weight: bolder;
-    /* width: 295px;
-    height: 63px;
-    left: 582px;
-    top: 915px; */
-  
     font-family: Quicksand;
     font-style: normal;
-    /* font-weight: 500; */
     font-size: 40px;
     line-height: 62px;
-    /* identical to box height */
   
-    color: #000000;
+    color: rgba(103, 168, 255, 1);
   }
   .subtitle {
-    /* font-family: Lato;
-    font-style: normal;
-    font-weight: lighter;
-  
-    color: #000000; */
-    /* width: 1030px;
-    height: 54px;
-    left: 205px;
-    top: 978px; */
-  
     font-family: Lato;
     font-style: normal;
     font-weight: 200;
     font-size: 28px;
     line-height: 54px;
-    /* identical to box height*/
   
-    color: #000000;
+  color: rgba(103, 168, 255, 1);
+  }
+  .midtitle {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 54px;
   }
   .sub {
     display: block;
@@ -74,12 +49,21 @@ align-self: auto;
 
 .vector1 {
   position: absolute;
-  display: block;
-  top: 260px;
+  margin-top: 500px;
+  opacity: 0.3;
 }
 .vector2 {
   position: absolute;
   display: block;
   right: 0;
   top: 290px;
+}
+.carousel-fade .carousel-item, .carousel-item img  {
+  max-height: 80vh;
+}
+#title{
+  color: rgba(103, 168, 255, 1);
+}
+#subtitle{
+  color:rgba(0, 0, 0, 1)
 }
