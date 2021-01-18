@@ -17,6 +17,7 @@ import Classroom from './components/Classroom';
 
 
 
+
 function App() {
   return (
       <div className="page-container">
@@ -40,7 +41,9 @@ function App() {
 
         <Footer/>
     </Router>
-    </div>
+    <Footer/>
+
+    </div>    
     </div>
     
 
